@@ -1,6 +1,7 @@
 # Print a 5x5 square of "*"
 
 # Setup
+# Establishes variables
 shape_item = ''
 lenght_of_shape = 5
 count = 0
@@ -9,8 +10,11 @@ count = 0
 # Have shape item print desired length
 
 while count < lenght_of_shape:
-    shape_item = shape_item + '*'
+    shape_item =  lenght_of_shape * '*'
     count += 1
-    # Provide the output
-    print(shape_item,flush=True)
+    print(shape_item)
 
+
+
+    
+    
