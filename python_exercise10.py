@@ -9,5 +9,9 @@ count = 0
 
 # Perform the task
 
+while count < user_request:
+    shape_item =  user_request * '*'
+    count += 1
+    # Output the result
+    print(shape_item)
 
-# Output the result
