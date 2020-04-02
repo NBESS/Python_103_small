@@ -8,9 +8,14 @@ end_point = int(input('End on: '))
 
 
 # Do the work
-desired_range = start_point
+# Subtract 1 from start point to include in range
+
+desired_range = start_point - 1
+
 # Use a while loop to count all numbers included in range
-while desired_range < end_point:
+# Add 1 to end point to include in range
+
+while desired_range < end_point + 1:
     desired_range += 1
     # Output result
     print(desired_range)
